@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENU</title>
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('background.jpg'); /* Background image URL */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header styling */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 36px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 10px 0;
+        }
+
+        ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        ul li a:hover {
+            color: #f4a261;
+        }
+
+        /* Menu section styling */
+        .menu-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .menu-section h1 {
+            font-size: 36px;
+            font-weight: bold;
+            color: #f4a261;
+        }
+
+        .menu-section1, .menu-section2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding-top: 20px;
+        }
+
+        .menu-section1 div, .menu-section2 div {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 200px;
+        }
+
+        .menu-section1 img, .menu-section2 img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            border: 5px solid #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .menu-section1 img:hover, .menu-section2 img:hover {
+            transform: scale(1.1);
+        }
+
+        .menu-section1 h2, .menu-section2 h2 {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        footer p {
+            color: #fff;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header id="menu">
+        <div class="container">
+            <h1 id="menu2">MENU</h1>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="administration.html">ADMINISTRATION</a></li>
+                <li><a href="contactus.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="menu-section">
+        <h1 id="veg">VEG-ITEMS</h1><br>
+        <section class="menu-section1">
+            <div>
+                <img src="rpitcture1.png" alt="Steak Frites" />
+                <h2>STEAK FRITES - 1250Rs</h2>
+            </div>
+
+            <div>
+                <img src="rpicture2.jpg" alt="Chicken Confit" />
+                <h2>Chicken Confit - 1500Rs</h2>
+            </div>
+
+            <div>
+                <img src="rpicture3.jpg" alt="French Onion Soup" />
+                <h2>French Onion Soup - 220Rs</h2>
+            </div>
+
+            <div>
+                <img src="rpicture4.JPG" alt="Bouillabaisse" />
+                <h2>Bouillabaisse - 1000Rs</h2>
+            </div>
+
+            <div>
+                <img src="rpicture5.jpg" alt="Croque Monsieur" />
+                <h2>Croque Monsieur - 1220Rs</h2>
+            </div>
+
+            <div>
+                <img src="rpicture6.jpg" alt="Lamb Shank Navarin" />
+                <h2>Lamb Shank Navarin - 1550Rs</h2>
+            </div>
+
+            <div>
+                <img src="rpicture7.JPG" alt="Hazelnut Dacquoise" />
+                <h2>Hazelnut Dacquoise - 800Rs</h2>
+            </div>
+        </section>
+
+        <h1 id="nonveg">NON-VEG ITEMS</h1><br>
+        <section class="menu-section2">
+            <div>
+                <img src="rpictire8.jpg" alt="Smorrebrod" />
+                <h2>Smorrebrod - 2220Rs</h2>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ELON MUSK. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

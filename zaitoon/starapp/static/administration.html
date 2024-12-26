@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMINISTRATION</title>
+    <link rel="stylesheet" href="menu.css" type="text/css">
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('background.jpg'); /* Background image URL */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Header styling */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #fff;
+            font-size: 36px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 10px 0;
+        }
+
+        ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        ul li a:hover {
+            color: #f4a261;
+        }
+
+        /* Admin section styling */
+        .admin-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .admin-section1 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding-top: 20px;
+        }
+
+        .admin-section1 div {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            width: 200px;
+        }
+
+        .admin-section1 img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            transition: transform 0.3s ease;
+        }
+
+        .admin-section1 img:hover {
+            transform: scale(1.1);
+        }
+
+        .admin-section1 h2 {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .admin-section1 p {
+            font-size: 16px;
+            color: #f4a261;
+        }
+
+        /* Footer styling */
+        footer {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px 0;
+            text-align: center;
+            margin-top: auto;
+        }
+
+        footer p {
+            color: #fff;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>ADMINS</h1>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="administration.html">ADMINISTRATION</a></li>
+                <li><a href="contact us.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="admin-section">
+        <h1 id="chef">CHEFS</h1>
+        <section class="admin-section1">
+            <div>
+                <img src="CEO.jpg" alt="Lokeshwaran R" />
+                <h2>LOKESHWARAN.R</h2>
+                <p>CEO</p>
+            </div>
+
+            <div>
+                <img src="http://www.michaeldeane.co.uk/resources/images/dcms/1123/Danni.jpg" alt="Danni Barry" />
+                <h2>DANNI BARRY</h2>
+                <p>Head Chef</p>
+            </div>
+
+            <div>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.PBKOa1jU0DMXo7GB_YgA4wHaD8&pid=Api&P=0&h=180" alt="Emma Bengtsson" />
+                <h2>EMMA BENGTSSON</h2>
+                <p>Head Chef</p>
+            </div>
+
+            <div>
+                <img src="https://tse2.mm.bing.net/th?id=OIP.a4gVeRbp5AIYda1edHAVugHaE8&pid=Api&P=0&h=180" alt="Eric Pras" />
+                <h2>ERIC PRAS</h2>
+                <p>Sous Chef</p>
+            </div>
+
+            <div>
+                <img src="https://tse4.mm.bing.net/th?id=OIP.KEd7vsPiLVCUvZGwbGnY0gHaGq&pid=Api&P=0&h=180" alt="Gordan Ramsay" />
+                <h2>GORDAN RAMSY</h2>
+                <p>Executive Chef</p>
+            </div>
+
+            <div>
+                <img src="https://tse2.mm.bing.net/th?id=OIP.qTUNQguXkhSyhND4vAfsbAHaEF&pid=Api&P=0&h=180" alt="Nadia Santini" />
+                <h2>NADIA SANTINI</h2>
+                <p>Sous Chef</p>
+            </div>
+        </section>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ELON MUSK . All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
